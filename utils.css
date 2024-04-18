@@ -1,0 +1,91 @@
+/* this is font-family */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balloo+Bhaina+2:wght@500&display=swap');
+
+/** variables **/
+:root {
+    --main-big-color: brown;
+    --font1: 'Baloo Bhaina 2', cursive;
+    --font2: 'Roboto', sans-serif;
+}
+
+.font1 {
+    font-family: var(--font1);
+}
+
+.font2 {
+    font-family: var(--font2);
+}
+
+.max-width-1 {
+    max-width: 80vw;
+}
+
+.max-width-2 {
+    max-width: 60vw;
+}
+
+.max-width-3 {
+    max-width: 50vw;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+.btn {
+    padding: 0px 15px;
+    /* padding-top: 3px; */
+    border: 2px solid black;
+    border-radius: 10px;
+    font-family: var(--font1);
+    font-size: 16px;
+    /* when we use cursor: pointer than cursor in convert in hand icon */
+    cursor: pointer;
+    transition: all 0.6s ease-in-out;
+    color: #222F3D;
+}
+
+.btn:hover {
+    background-color: rgb(231, 151, 3);
+    color: white;
+}
+
+.form-input {
+    padding: 3px 5px;
+    /* padding-top: 3px; */
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 0 13px;
+    font-family: var(--font1);
+}
+
+.form-input:hover {
+    border: 5px solid orange;
+}
+
+.mx-1 {
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 40px;
+}
+
+
+.my-2 {
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.form-box input,
+textarea {
+    width: 52vw;
+    padding: 10px 6px;
+    margin: 7px 0;
+    border: 2px solid orange;
+    border-radius: 10px;
+}
+
+.center {
+    text-align: center;
+}

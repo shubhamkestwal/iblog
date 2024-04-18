@@ -1,0 +1,29 @@
+.contact-content {
+    /* height: 395px; */
+    /* background-color: skyblue; */
+    /* display: block; */
+    /* justify-content: center;
+    align-items: center; */
+    height: 80vh;
+    margin-top: 20px;
+    padding: 10px;
+    position: relative;
+    /* it is use to remove thhe scrobar in page */
+    overflow: hidden;
+}
+
+.contact-content::after {
+    content: "";
+    background-image: url(../img/images\(4\).jfif);
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: inherit;
+    opacity: 0.2;
+    border-radius: 12px;
+    /* it is use when appling  position: relative;or position: absolue; properties */
+    z-index: -1;
+
+}
